@@ -10,8 +10,8 @@ namespace snake
     {
         static void Main(string[] args)
         {
-            Console.BackgroundColor {11111f,11111f}
-            readln;
+            Console.WriteLine("Hello World");
+            Console.ReadLine();
         }
     }
 }
