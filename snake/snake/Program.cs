@@ -51,7 +51,17 @@ namespace snake
                 }
 
             }
-            
+
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.SetCursorPosition(33, 11);
+            Console.WriteLine("GAME OVER");
+            Console.SetCursorPosition(33, 12);
+            Console.WriteLine("Thanks for Watching");
+            Console.SetCursorPosition(33, 13);
+            Console.WriteLine("Maks EMS production with GeekBrains");
+            Console.SetCursorPosition(33, 14);
+            Console.WriteLine("Press Enter for exit");
+            Console.ReadLine();
         }
     
     }
