@@ -35,6 +35,7 @@ namespace snake
 
                 if(snake.Eat (food))
                 {
+                    
                     food = foodCreator.CreateFood();
                     food.Draw();
                 }

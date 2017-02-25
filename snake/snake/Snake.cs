@@ -26,6 +26,9 @@ namespace snake
             pList.Remove(tail);
             Point head = GetNextPoint();
             pList.Add(head);
+
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+
             tail.Clear();
             head.Draw();
         }
